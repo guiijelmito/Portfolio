@@ -1,9 +1,9 @@
 import React from "react";
 //import Contato from "./componentes/Sobre.jsx";
 import Navbar from "./componentes/Navbar";
-//import Projetos from "./componentes/Projetos";
-//import Habilidades from "./componentes/Habilidades";
-//import Formacao from "./componentes/Formacao.jsx";
+import Projetos from "./componentes/Projetos";
+import Habilidades from "./componentes/Habilidades";
+import Formacao from "./componentes/Formacao.jsx";
 import Sobre from "./componentes/Sobre";
 
 export default function App() {
@@ -11,6 +11,9 @@ export default function App() {
     <main>
       <Navbar />
       <Sobre />
+      <Projetos />
+      <Habilidades />
+      <Formacao />
     </main>
   );
 }
