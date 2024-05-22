@@ -8,6 +8,7 @@ import MatplotlibIcon from "./componentes/icons/matplotlib.svg";
 import CIcon from "./componentes/icons/c.svg";
 import GitIcon from "./componentes/icons/git.svg";
 import GithubIcon from "./componentes/icons/github.svg";
+import GitHubWIcon from "./componentes/icons/github-w.svg";
 import VscodeIcon from "./componentes/icons/vscode.svg";
 import AnacondaIcon from "./componentes/icons/anaconda.svg";
 import JupyterIcon from "./componentes/icons/jupyter.svg";
@@ -18,6 +19,10 @@ import EmailIcon from "./componentes/icons/gmail.svg";
 import AddressIcon from "./componentes/icons/localization.svg";
 import ZapIcon from "./componentes/icons/zapzap.svg";
 import LogaliIcon from "./componentes/icons/logali.gif";
+import BrazilIcon from "./componentes/icons/brazil.svg";
+import USAIcon from "./componentes/icons/usa.svg";
+import CertHTML from "./componentes/icons/cert-html.jpg";
+import CertPostgre from "./componentes/icons/cert-postgresql.jpg";
 
 export const habilidades = [
   {
@@ -83,7 +88,7 @@ export const habilidades = [
   {
     title: "Jupyter Notebook",
     icon: JupyterIcon
-  }
+  },
 ];
 
 export const contatos = [
@@ -102,7 +107,7 @@ export const contatos = [
   {
     title: "Endereço",
     icon: AddressIcon,
-    link: "https://maps.app.goo.gl/kUrEPsDtZiUiYSc47"
+    link: "https://maps.app.goo.gl/MLR4K5zKDNzEUZis8"
 
   },
 
@@ -114,8 +119,42 @@ export const contatos = [
 
   {
     title: "GitHub",
-    icon: GithubIcon,
+    icon: GitHubWIcon,
     link: "https://github.com/guiijelmito"
+  },
+];
+
+export const idiomas = [
+  {
+    title: "Português",
+    image: BrazilIcon,
+    level: "Nativo"
+  },
+
+  {
+    title: "Inglês",
+    image: USAIcon,
+    level: "Avançado"
+  }
+];
+
+export const certificados = [
+  {
+    title: "HTML e CSS: Classes, posicionamento e Flexbox",
+    date: "2023",
+    subtitle: "Alura",
+    image: CertHTML,
+    description: " Curso de HTML e CSS, com foco em primeiros passos, fontes, botões, posicionamento de elementos e uso de Flexbox",
+    link: "https://cursos.alura.com.br/certificate/bba1beaa-49e8-4929-9564-440f8b88ef76"
+  },
+
+  {
+    title: "PostgreSQL",
+    date: "2024",
+    subtitle: "Alura",
+    image: CertPostgre,
+    description: "Curso de PostgreSQL, com foco em primeiros passos, operações CRUD, consultas com filtros, relacionamentos e uso de CASCADE",
+    link: "https://cursos.alura.com.br/certificate/0e4798eb-037e-4688-93fc-a06b9be4d1dc"
   },
 ];
 

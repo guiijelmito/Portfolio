@@ -12,9 +12,10 @@
               Habilidades &amp; Tecnologias
             </h1>
             <p className="text-base text-white leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
-              Habilidades e tecnologias que domino ou possuo experiência.
+              Habilidades e tecnologias que domino ou possuo experiência
             </p>
           </div>
+
           <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
             {habilidades.map((habilidade) => (
               <div key={habilidade.title} className="p-2 sm:w-1/2 w-full">

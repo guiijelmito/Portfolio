@@ -6,11 +6,11 @@ import Logo from "./icons/Preview.png";
 export default function Navbar() {
   return (
    <header className="md:sticky top-0 z-10 h-30">
-      <div className="container flex place-content-centerflex-wrap p-5 md:flex-row">
+      <div className="flex place-content-centerflex-wrap p-5 md:flex-row w-full">
         <a className='flex flex-row gap-5 '>
           <img src={Logo} href alt="Logo" className='logo'/>
           
-          <p className='text-gray-200 mr-4 ml-4 mt-4'><b>Portfólio</b> </p>
+          <p className='text-gray-200 mr-4 ml-4 mt-4'><b>PORTFÓLIO</b> </p>
         </a>
         <nav className="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l gap-3 md:border-gray-700 ml-3 flex flex-wrap items-center text-base justify-center">
           <a href="#projects" className="mr-5 text-gray-400 hover:text-white border-3">
@@ -21,8 +21,12 @@ export default function Navbar() {
             Habilidades e Competências
           </a>
 
-          <a href="#testimonials" className="mr-5  text-gray-400 hover:text-white border-3">
+          <a href="#formacao" className="mr-5  text-gray-400 hover:text-white border-3">
             Formação Acadêmica
+          </a>
+
+          <a href="#qualificacoes" className="mr-5  text-gray-400 hover:text-white border-3">
+            Qualificações
           </a>
 
         </nav>

@@ -14,16 +14,15 @@ export default function Contato() {
             marginHeight={0}
             marginWidth={0}
             style={{ filter: "opacity(0.7)" }}
-            src="https://www.google.com/maps/embed/v1/place?q=97+warren+st+new+york+city&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
+            src="https://www.google.com/maps/embed/v1/place?q=Avenida+BPS+2243&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
           />
           <div className="bg-gray-900 relative flex flex-wrap py-6 rounded shadow-md">
             <div className="lg:w-1/2 px-6">
               <h2 className="title-font font-semibold text-white tracking-widest text-xs">
-                ADDRESS
+                ENDEREÇO
               </h2>
-              <p className="mt-1">
-                97 Warren St. <br />
-                New York, NY 10007
+              <p className="mt-1 text-indigo-400">
+                Avenida BPS 2243, Apto 23 - Cruzeiro, Itajubá - MG
               </p>
             </div>
             <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
@@ -31,12 +30,12 @@ export default function Contato() {
                 EMAIL
               </h2>
               <a className="text-indigo-400 leading-relaxed">
-                reedbarger@email.com
+                cezarguilherme81@gmail.com
               </a>
               <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
-                PHONE
+                CELULAR
               </h2>
-              <p className="leading-relaxed">123-456-7890</p>
+              <p className="leading-relaxed text-indigo-400">(35) 99963-8484</p>
             </div>
           </div>
         </div>
@@ -45,15 +44,14 @@ export default function Contato() {
           name="contact"
           className="lg:w-1/3 md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
           <h2 className="text-white sm:text-4xl text-3xl mb-1 font-medium title-font">
-            Hire Me
+            Me contrate!
           </h2>
-          <p className="leading-relaxed mb-5">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum
-            suscipit officia aspernatur veritatis. Asperiores, aliquid?
+          <p className="leading-relaxed mb-5 text-white">
+            Contrate-me e eleve seu projeto! Com epaixão e muita curiosidade, ofereço soluções sob medida e um compromisso inabalável com a qualidade. Vamos transformar ideias em sucesso juntos
           </p>
           <div className="relative mb-4">
             <label htmlFor="name" className="leading-7 text-sm text-gray-400">
-              Name
+              Nome
             </label>
             <input
               type="text"
@@ -77,7 +75,7 @@ export default function Contato() {
             <label
               htmlFor="message"
               className="leading-7 text-sm text-gray-400">
-              Message
+              Mensagem
             </label>
             <textarea
               id="message"
@@ -88,7 +86,7 @@ export default function Contato() {
           <button
             type="submit"
             className="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
-            Submit
+            Enviar
           </button>
         </form>
       </div>

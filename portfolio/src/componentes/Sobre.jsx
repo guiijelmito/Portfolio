@@ -2,6 +2,7 @@ import React from "react";
 import StudentIcon from "./icons/coding.svg";
 import { contatos } from "../data";
 
+
 export default function About() {
   return (
     <section className='mb-20' id="about">
@@ -11,15 +12,17 @@ export default function About() {
             Olá! eu sou o Guilherme de Souza
             <br className="hidden lg:inline-block" />
           </h1>
+
           <p className="mb-8 text-gray-200 leading-relaxed ">
             Sou um estudante de Sistemas de Informação, com ótimas habilidades de comunicação verbal e escrita,
             facilitando a interação com colegas de equipe e clientes. Grande disposição para o desenvolvimento pessoal e profissional,
             que permite contribuir positivamente para o sucesso da empresa
           </p>
+  
           <div className="flex justify-center">
             <a
               href="#contact"
-              className="inline-flex text-black bg-gray-200 border-0 py-2 px-6 focus:outline-none hover:bg-gray-600 rounded text-lg">
+              className="inline-flex text-black bg-gray-200 border-0 py-2 px-6 focus:outline-none hover:text-white hover:bg-gray-600 rounded text-lg">
               Me contate
             </a>
 
