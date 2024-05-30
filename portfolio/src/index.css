@@ -27,12 +27,20 @@ header {
 }
 
 #btn-projects {
-    background-color: #66bb6a;
+    background-color: #49e68f;
     
 }
 
 #btn-projects:hover {
-    background-color: #43a047;
+    background-color: #3bad6e;
+}
+
+#btn-contact {
+    background-color: #49e68f;
+}
+
+#btn-contact:hover {
+    background-color: #3bad6e;
 }
 
 #container_nav {

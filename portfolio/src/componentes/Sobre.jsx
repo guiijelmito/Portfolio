@@ -1,7 +1,5 @@
 import React from "react";
 import StudentIcon from "./icons/coding.svg";
-import { contatos } from "../data";
-
 
 export default function About() {
   return (
@@ -42,18 +40,6 @@ export default function About() {
             src={StudentIcon}
           />
         </div>
-      </div>
-
-      <div className="container mx-auto flex flex-row md:flex-row items-start pl-10">
-        <ul className="flex flex-row justify-center gap-2">
-          {contatos.map((contato) => (
-            <li key={contato.title} className='skill_logo gap-10'>
-              <a href={contato.link} target='blank'>
-                <img src={contato.icon} alt={contato.title} />
-              </a>
-            </li>
-          ))}
-        </ul>
       </div>
     </section>
   );

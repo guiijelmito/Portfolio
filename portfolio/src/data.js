@@ -16,7 +16,6 @@ import UnifeiIcon from "./componentes/icons/unifei.svg";
 import EmilioMouraIcon from "./componentes/icons/emilio.jpeg";
 import LinkedinIcon from "./componentes/icons/linkedin.svg";
 import EmailIcon from "./componentes/icons/gmail.svg";
-import AddressIcon from "./componentes/icons/localization.svg";
 import ZapIcon from "./componentes/icons/zapzap.svg";
 import LogaliIcon from "./componentes/icons/logali.gif";
 import BrazilIcon from "./componentes/icons/brazil.svg";
@@ -105,13 +104,6 @@ export const contatos = [
   },
 
   {
-    title: "Endereço",
-    icon: AddressIcon,
-    link: "https://maps.app.goo.gl/MLR4K5zKDNzEUZis8"
-
-  },
-
-  {
     title: "Linkedin",
     icon: LinkedinIcon,
     link: "https://www.linkedin.com/in/guilherme-de-souza-b96563148/" 
@@ -144,8 +136,8 @@ export const certificados = [
     date: "2023",
     subtitle: "Alura",
     image: CertHTML,
-    description: " Curso de HTML e CSS, com foco em primeiros passos, fontes, botões, posicionamento de elementos e uso de Flexbox",
-    link: "https://cursos.alura.com.br/certificate/bba1beaa-49e8-4929-9564-440f8b88ef76"
+    link: "https://cursos.alura.com.br/certificate/bba1beaa-49e8-4929-9564-440f8b88ef76",
+    items: ["Primeiros passos", "Fontes", "Botões", "Posicionamento de elementos", "Uso de Flexbox"]
   },
 
   {
@@ -153,8 +145,8 @@ export const certificados = [
     date: "2024",
     subtitle: "Alura",
     image: CertPostgre,
-    description: "Curso de PostgreSQL, com foco em primeiros passos, operações CRUD, consultas com filtros, relacionamentos e uso de CASCADE",
-    link: "https://cursos.alura.com.br/certificate/0e4798eb-037e-4688-93fc-a06b9be4d1dc"
+    link: "https://cursos.alura.com.br/certificate/0e4798eb-037e-4688-93fc-a06b9be4d1dc",
+    items: ["Primeiros passos", "Operações CRUD", "Consultas com filtros", "Relacionamentos", "Uso de CASCADE"]
   },
 ];
 

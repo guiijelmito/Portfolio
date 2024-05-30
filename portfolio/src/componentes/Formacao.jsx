@@ -10,9 +10,6 @@ export default function Formacao() {
         <h1 className="sm:text-4xl text-3xl font-medium title-font text-white">
           Formação acadêmica
         </h1> 
-        <p className="lg:w-2/3 mx-auto leading-relaxed text-base text-white mb-12">
-          Formações acadêmicas que realizei ao longo da minha jornada acadêmica
-        </p>
         <div className="flex flex-wrap m-4">
           {formacoes.map((formacao) => (
             <div className="p-4 md:w-1/2 w-full">

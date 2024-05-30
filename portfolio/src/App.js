@@ -4,7 +4,7 @@ import Navbar from "./componentes/Navbar";
 import Projetos from "./componentes/Projetos";
 import Habilidades from "./componentes/Habilidades";
 import Formacao from "./componentes/Formacao.jsx";
-import Certificados from "./componentes/Certificados.jsx";
+import Qualificacoes from "./componentes/Qualificacoes.jsx";
 import Sobre from "./componentes/Sobre.jsx";
 
 export default function App() {
@@ -15,7 +15,7 @@ export default function App() {
       <Projetos />
       <Habilidades />
       <Formacao />
-      <Certificados />
+      <Qualificacoes />
       <Contato />
     </main>
   );
